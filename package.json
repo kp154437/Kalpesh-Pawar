@@ -1,0 +1,9 @@
+{
+  "name": "kalpesh-pawar-portfolio",
+  "version": "1.0.0",
+  "description": "Kalpesh Pawar - Developer Portfolio with Custom SMTP Backend",
+  "main": "api/contact.js",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

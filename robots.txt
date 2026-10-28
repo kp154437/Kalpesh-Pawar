@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kalpesh-pawar-portfolio.netlify.app/sitemap.xml

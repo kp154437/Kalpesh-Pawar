@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Project Details | Kalpesh Pawar</title>
+  <meta name="description" content="Detailed overview of production engineering projects, architecture, and tech stack by Kalpesh Pawar.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Project Details | Kalpesh Pawar">
+  <meta property="og:description" content="Explore real-world full-stack web applications and AI tools built by Kalpesh Pawar.">
+  <meta property="og:image" content="https://kalpesh-pawar-portfolio.netlify.app/assets/img/profile/kalpesh.jpg">
+  <meta property="og:url" content="https://kalpesh-pawar-portfolio.netlify.app/portfolio-details.html">
+  <meta property="og:type" content="website">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" type="image/png">
+  <link href="assets/img/apple_touch_icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header dark-background d-flex flex-column justify-content-center">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="header-container d-flex flex-column align-items-start">
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero"><i class="bi bi-house navicon"></i>Home</a></li>
+          <li><a href="index.html#about"><i class="bi bi-person navicon"></i> About</a></li>
+          <li><a href="index.html#skills"><i class="bi bi-cpu navicon"></i> Skills</a></li>
+          <li><a href="index.html#services"><i class="bi bi-briefcase navicon"></i> Services</a></li>
+          <li><a href="index.html#projects" class="active"><i class="bi bi-code-slash navicon"></i> Projects</a></li>
+          <li><a href="index.html#resume"><i class="bi bi-file-earmark-text navicon"></i> Experience</a></li>
+          <li><a href="index.html#faq"><i class="bi bi-question-circle navicon"></i> FAQ</a></li>
+          <li><a href="index.html#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links text-center">
+        <a href="https://github.com/kp154437" target="_blank" rel="noopener" class="github" title="GitHub"><i class="bi bi-github"></i></a>
+        <a href="https://www.linkedin.com/in/kalpesh-pawar-496a71311" target="_blank" rel="noopener" class="linkedin" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="https://x.com/kp154437" target="_blank" rel="noopener" class="twitter" title="X / Twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="mailto:kp154437@gmail.com" class="email" title="Email"><i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Project Architecture &amp; Details</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Project Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="project-card-modern">
+              <div class="live-browser-frame">
+                <div class="browser-header">
+                  <div class="browser-dots">
+                    <span class="browser-dot dot-red"></span>
+                    <span class="browser-dot dot-yellow"></span>
+                    <span class="browser-dot dot-green"></span>
+                  </div>
+                  <div class="browser-address-bar" id="detail-address-bar">
+                    <i class="bi bi-lock-fill"></i>
+                    <span id="detail-address-text">https://hisabkitabpro.vercel.app/</span>
+                  </div>
+                  <div class="browser-actions">
+                    <span class="live-badge-pulse"><span class="pulse-indicator"></span> Live App</span>
+                    <a id="detail-external-link" href="https://hisabkitabpro.vercel.app/" target="_blank" rel="noopener" title="Open in New Tab"><i class="bi bi-box-arrow-up-right"></i></a>
+                  </div>
+                </div>
+                <div class="live-iframe-wrapper" style="height: 500px;">
+                  <div class="iframe-loader">
+                    <div class="spinner-border" role="status"></div>
+                    <span>Loading Live Application...</span>
+                  </div>
+                  <iframe id="detail-live-iframe" src="https://hisabkitabpro.vercel.app/" title="HisabKitab Pro Live Viewport" loading="lazy" onload="this.previousElementSibling.classList.add('loaded')"></iframe>
+                </div>
+              </div>
+              <div class="p-3 d-flex flex-wrap gap-2 align-items-center justify-content-between" style="background: #090e1c; border-top: 1px solid rgba(255, 255, 255, 0.08);">
+                <div class="d-flex flex-wrap gap-2">
+                  <button type="button" class="btn btn-sm btn-project-primary" onclick="loadPreview('https://hisabkitabpro.vercel.app/', 'https://hisabkitabpro.vercel.app/')"><i class="bi bi-receipt me-1"></i> HisabKitab Pro</button>
+                  <button type="button" class="btn btn-sm btn-project-outline" onclick="loadPreview('https://salon-app-brown.vercel.app/', 'https://salon-app-brown.vercel.app/')"><i class="bi bi-speedometer2 me-1"></i> Salon Admin App</button>
+                  <button type="button" class="btn btn-sm btn-project-outline" onclick="loadPreview('https://salon-website-navy.vercel.app/about', 'https://salon-website-navy.vercel.app/about')"><i class="bi bi-calendar-check me-1"></i> Salon Booking Site</button>
+                </div>
+                <button type="button" class="btn btn-sm btn-project-outline" onclick="const f=document.getElementById('detail-live-iframe'); f.src=f.src;"><i class="bi bi-arrow-clockwise me-1"></i> Reload</button>
+              </div>
+            </div>
+            <script>
+              function loadPreview(url, display) {
+                const f = document.getElementById('detail-live-iframe');
+                const loader = f.previousElementSibling;
+                loader.classList.remove('loaded');
+                f.src = url;
+                document.getElementById('detail-address-text').textContent = display;
+                document.getElementById('detail-external-link').href = url;
+              }
+            </script>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-left" data-aos-delay="200">
+              <h3>Featured SaaS Project</h3>
+              <ul>
+                <li><strong>Lead Engineer</strong>: Kalpesh Pawar (B.Tech · IPS Academy, Indore)</li>
+                <li><strong>Title</strong>: HisabKitab Pro (Cloud ERP &amp; Billing SaaS)</li>
+                <li><strong>Category</strong>: Production SaaS &amp; Business Systems</li>
+                <li><strong>Stack</strong>: Next.js, React, Tailwind CSS, WhatsApp API, Payment Gateways</li>
+                <li><strong>HisabKitab Pro Live</strong>: <a href="https://hisabkitabpro.vercel.app/" target="_blank" rel="noopener">hisabkitabpro.vercel.app</a></li>
+                <li><strong>Salon Admin App (Controller)</strong>: <a href="https://salon-app-brown.vercel.app/" target="_blank" rel="noopener">salon-app-brown.vercel.app</a></li>
+                <li><strong>Salon Client Website</strong>: <a href="https://salon-website-navy.vercel.app/about" target="_blank" rel="noopener">salon-website-navy.vercel.app</a></li>
+                <li><strong>KSP Tech Platform</strong>: <a href="https://ksp-tech.netlify.app/" target="_blank" rel="noopener">ksp-tech.netlify.app</a></li>
+                <li><strong>Portfolio Template</strong>: <a href="https://kalpesh-pawar-portfolio.vercel.app/" target="_blank" rel="noopener">kalpesh-pawar-portfolio.vercel.app</a></li>
+                <li><strong>Code Repository</strong>: <a href="https://github.com/kp154437" target="_blank" rel="noopener">github.com/kp154437</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-12">
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Architecture &amp; Implementation Overview</h2>
+              <p>
+                <strong>HisabKitab Pro</strong> is a complex, production-grade cloud-based ERP and billing SaaS tailored for modern small and medium businesses. Engineered with Next.js (App Router) and Tailwind CSS, it streamlines complete business workflows through GST-compliant invoicing, automated WhatsApp notifications &amp; customer reminders, integrated payment gateways, customer ledger accounting, staff payroll tracking, and multi-device cloud synchronization.
+              </p>
+              <p>
+                In parallel, the <strong>Salon Management Ecosystem</strong> demonstrates full-stack real-time architectural control: an intuitive public-facing salon website (<code>salon-website-navy.vercel.app</code>) captures client booking requests, while a dedicated centralized web application (<code>salon-app-brown.vercel.app</code>) controls the salon website's services, settings, and displays every incoming appointment booking in real-time for immediate slot management, staff scheduling, and operations.
+              </p>
+
+              <div class="features mt-4">
+                <h3>Engineering Pillars</h3>
+                <div class="row gy-3">
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                      <i class="bi bi-check-circle-fill"></i>
+                      <h4>Responsive &amp; Fluid Interfaces</h4>
+                      <p>Mobile-first layout structure, flexible CSS grid/flexbox foundations, and optimized touch targets for all screen viewports.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+                      <i class="bi bi-shield-check"></i>
+                      <h4>Secure State &amp; Authentication</h4>
+                      <p>Adherence to safe input handling, environment token separation, and secure authentication flows via Firebase Auth and REST headers.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
+                      <i class="bi bi-speedometer2"></i>
+                      <h4>Performance &amp; Core Web Vitals</h4>
+                      <p>Optimized asset payloads, reduced render-blocking scripts, and lazy-loaded media assets to minimize layout shifts and FCP times.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="feature-item" data-aos="fade-up" data-aos-delay="700">
+                      <i class="bi bi-cpu"></i>
+                      <h4>Modern API &amp; LLM Integrations</h4>
+                      <p>Seamless connection with third-party REST endpoints, webhooks, and generative AI APIs with contextual prompt management.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative">
+
+    <div class="container">
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kalpesh Pawar</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits text-center">
+        Full-Stack Software Developer &amp; AI Systems Engineer
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
